@@ -1,0 +1,63 @@
+            header {
+                display: flex;
+                justify-content: space-between;
+                height: 70%;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            
+            .logo {
+                display: flex;
+            }
+            
+            .logo img {
+                height: 50px;
+                margin-right: 10px;
+            }
+            
+            body {
+                font-family: 'Pt Sans', sans-serif;
+                margin: 0;
+                display: grid;
+                color: white;
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient( to bottom right, #983fe1 20%, #8d3ad2 40%, #69c3bc 60%, #58ddd3 80%);
+                background-size: 200% 200%;
+                animation: movimiento 5s linear infinite alternate;
+            }
+            
+            @keyframes movimiento {
+                from {
+                    background-position: 0 0;
+                }
+                to {
+                    background-position: 100% 100%;
+                }
+            }
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            nav a {
+                font-weight: 600;
+                padding-right: 10px;
+            }
+            
+            nav a:hover {
+                color: beige;
+            }
+            /*-------------------------------------body-------------------------------------*/
+            
+            .contenedor {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
+            
+            main {
+                display: flex;
+            }
+        

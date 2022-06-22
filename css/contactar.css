@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(70deg,#983fe1 0%,#58ddd3 100%)!important;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: beige;
+}
