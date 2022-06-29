@@ -1,11 +1,16 @@
+* {
+    margin: 0%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     height: 70%;
     justify-content: space-between;
-    padding: 10px;
-    background: linear-gradient(70deg,#983fe1 0%,#58ddd3 100%)!important;
+    padding: 20px;
+    background: linear-gradient(70deg, #983fe1 0%, #58ddd3 100%)!important;
 }
+
 .logo {
     display: flex;
 }
@@ -14,6 +19,7 @@ header {
     height: 50px;
     margin-right: 10px;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -21,15 +27,16 @@ a {
 
 nav a {
     font-weight: 600;
-    padding-right: 10px;
+    padding-right: 80px;
 }
 
 nav a:hover {
     color: beige;
 }
-header .textos-header{
+
+header .textos-header {
     display: flex;
-    height:430px ;
+    height: 430px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -37,107 +44,105 @@ header .textos-header{
     text-align: center;
 }
 
-.textos-header h1{
+.textos-header h1 {
     font-size: 50px;
     color: #fff;
 }
 
-.textos-header h2{
+.textos-header h2 {
     font-size: 30px;
     font-weight: 300;
     color: #fff;
 }
 
-
-
-.wave{
+.wave {
     position: absolute;
     bottom: 0%;
     width: 100%;
 }
 
-
-
-.form-register{
+.form-register {
     width: 400px;
-    background: #24303c ;
+    background: #58ddd3 ;
     padding: 30px;
     margin-top: 100px;
     margin-left: 35.8%;
     margin-bottom: 5%;
     border-radius: 4px;
-    font-family:'Calibri';
+    font-family: 'Calibri';
     color: white;
-    box-shadow:7px 13px 37px #000;
+    box-shadow: 7px 13px 37px rgb(141, 65, 65);
 }
 
-.form-register h5{
+.form-register h5 {
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-.controls{
+.controls {
     width: 100%;
-    background: #24303c ;
-    padding:10px;
+    background: #983fe1;
+    padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family:'Calibri';
+    border: 1px solid #983fe1;
+    font-family: 'Calibri';
     font-size: 18px;
     color: white;
 }
 
-.form-register p{
+.form-register p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
 }
 
-.form-register a{
+.form-register a {
     color: white;
     text-decoration: underline;
 }
 
-.form-register a:hover{
+.form-register a:hover {
     color: white;
     text-decoration: underline;
 }
 
-.form-register .botons{
+.form-register .botons {
     width: 100%;
-    background: #1f55c5;
+    background: #983fe1;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
 }
-footer{
-    background: linear-gradient(70deg,#983fe1 0%,#58ddd3 100%)!important;
+footer {
+    background: linear-gradient(70deg, #983fe1 0%, #58ddd3 100%)!important;
     padding: 60px 0 30px 0;
     margin: auto;
     position: absolute;
     bottom: 0;
     width: 100%;
-    
 }
-.contenedor-footer{
+
+.contenedor-footer {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
     margin: auto;
-    padding-bottom:50px ;
+    padding-bottom: 50px;
     border-bottom: 1px solid #ccc;
 }
 
-.content-foo{
+.content-foo {
     text-align: center;
 }
-.content-foo h4{
+
+.content-foo h4 {
     color: #fff;
     border-bottom: 3px solid #af20da;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
+

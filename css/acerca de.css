@@ -1,70 +1,77 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    height: 70%;
-    justify-content: space-between;
-    padding: 10px;
-    background: linear-gradient(70deg,#983fe1 0%,#58ddd3 100%)!important;
-}
-.logo {
-    display: flex;
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-
-nav a {
-    font-weight: 600;
-    padding-right: 10px;
-}
-
-nav a:hover {
-    color: beige;
-}
-/*-----------------------------body------------------------------*/
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    text-align: center;
-    overflow: hidden;
-}
-main{
-    display: flex;
-}
-
-
-footer{
-    background: linear-gradient(70deg,#983fe1 0%,#58ddd3 100%)!important;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    * {
+        margin: 0%;
+    }
     
-}
-.contenedor-footer{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom:50px ;
-    border-bottom: 1px solid #ccc;
-}
-
-.content-foo{
-    text-align: center;
-}
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #af20da;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 70%;
+        justify-content: space-between;
+        padding: 20px;
+        background: linear-gradient(70deg, #983fe1 0%, #58ddd3 100%)!important;
+    }
+    
+    .logo {
+        display: flex;
+    }
+    
+    .logo img {
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a {
+        font-weight: 600;
+        padding-right: 80px;
+    }
+    
+    nav a:hover {
+        color: beige;
+    }
+    /*-----------------------------body------------------------------*/
+    
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    main {
+        display: flex;
+    }
+    
+    footer {
+        background: linear-gradient(70deg, #983fe1 0%, #58ddd3 100%)!important;
+        padding: 60px 0 30px 0;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .contenedor-footer {
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .content-foo {
+        text-align: center;
+    }
+    
+    .content-foo h4 {
+        color: #fff;
+        border-bottom: 3px solid #af20da;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
